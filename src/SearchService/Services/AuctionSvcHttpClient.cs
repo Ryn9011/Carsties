@@ -2,11 +2,11 @@
 
 namespace SearchService;
 
-public class AuxtionSvcHttpClient
+public class AuctionSvcHttpClient
 {
     private readonly HttpClient _httpClient;
     private readonly IConfiguration _config;
-    public AuxtionSvcHttpClient(HttpClient httpClient, IConfiguration config)
+    public AuctionSvcHttpClient(HttpClient httpClient, IConfiguration config)
     {
         _httpClient = httpClient;
         _config = config;   
