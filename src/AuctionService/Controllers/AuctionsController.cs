@@ -9,7 +9,7 @@ using Contracts;
 using MassTransit;
 using Microsoft.AspNetCore.Authorization;
 
-namespace AuctionService.Controllers;
+namespace AuctionService;
 
 [ApiController]
 [Route("api/auctions")]

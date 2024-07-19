@@ -6,7 +6,7 @@ using AuctionService.Data;
 using Contracts;
 using MassTransit;
 
-namespace AuctionService.Consumers
+namespace AuctionService
 {
     public class BidPlacedConsumer : IConsumer<BidPlaced>
     {
